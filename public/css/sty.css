@@ -1,0 +1,52 @@
+#nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0px;
+    height: 100px;
+    margin-bottom: 23px;
+    /* margin-top: 20px; */
+    background-color: azure;
+}
+
+#nav-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#content-img {
+    height: 400px;
+    width: auto
+}
+
+#content {
+    margin-bottom: 100px;
+
+}
+
+#content::after {
+    display: none;
+}
+
+#featured {
+    background-image: none;
+}
+
+#email {
+    flex-direction: column;
+}
+
+#para {
+    text-align: center;
+    left: 0px;
+
+}
+
+#email-field {
+    margin-bottom: 20px;
+    width: 70vw;
+}
